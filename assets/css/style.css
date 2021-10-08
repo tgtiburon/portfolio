@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    padding: 20px 20px;
+    padding: 7px 7px;
     background-color:var(--primary-color);
     display:flex;
     justify-content: space-between;
@@ -27,6 +27,7 @@ header {
     position: -webkit-sticky;
     top: 0;
     z-index: 9999;
+    height:77px;
     
 }
 header a {
@@ -60,6 +61,15 @@ header nav ul li a:hover {
     background:var(--secondary-color);
     border-radius: 20px;
 }
+/* Lets fix the anchor
+.anchor {
+    position:relative;
+}
+.anchor a {
+    position:absolute;
+    left:0px;
+    top: -400px;
+} */
 .hero {
     display:flex;
     align-items: flex-start;
@@ -87,7 +97,8 @@ header nav ul li a:hover {
     
 
 }
-.my-work {
+
+.works {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
@@ -114,3 +125,39 @@ footer h2 {
     color: var(--primary-color);
     
 }
+
+
+/*Media Query for better mobile responsiveness */
+@media screen and (max-width: 980px) {
+
+
+
+
+
+
+
+}/*980px breakpoint end */
+@media screen and (max-width: 768px) {
+    .hero {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .about-text {
+        height:auto;
+        padding:20px;
+    }
+    .my-work {
+
+        display:flex;
+        justify-content: center;
+
+    }
+
+}/*768px breakpoint end */
+
+@media screen and (max-width: 575px) {
+
+}/*575px breakpoint end */
