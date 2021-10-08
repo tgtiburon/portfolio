@@ -3,6 +3,8 @@
     --primary-color: rgb(66, 158, 66);
     --secondary-color: white;
     --tertiary-color: black;
+    --hero-height:600px;
+    
 }
 
 *{
@@ -32,7 +34,7 @@ header a {
     color:white;
 }
 header h1 {
-    font-size: 40px;
+    font-size: 3.0vw;
     text-shadow: 0 0 20px rgba(0,0,0,.9);
     
     
@@ -61,12 +63,28 @@ header nav ul li a:hover {
 .hero {
     display:flex;
     align-items: flex-start;
+    /* height:100%; */
 
+}
+/*set profile pic to 100% of the block */
+.hero > img {
+    height: var(--hero-height);
 }
 .hero p {
     font-size: 2.0vw;
     padding: 20px;
     color:var(--primary-color);
+    /* height:100% */
+
+}
+.about-text {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:var(--hero-height);
+    
+    
 
 }
 .my-work {
@@ -77,12 +95,19 @@ header nav ul li a:hover {
 .work {
     
     min-width: 33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work h4 {
+    z-index: 10;
+    font-size:2.0vw;
 }
 footer {
     display: flex;
-    justify-content: space-between;
-    position:absolute;
-    bottom: 0;
+    justify-content: center;
+    
+    padding: 1%;
     
 }
 footer h2 {
