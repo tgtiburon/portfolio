@@ -18,50 +18,68 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-
-    
-
-}
-
-.resume-intro  {
-    color:red;
+    border: solid red;
+    color:var(--primary-color);
     justify-content: center;
     padding-bottom: 3%;
+
     
+
 }
+
+
 .resume-intro>p {
-    color:orange;
+    color: var(--primary-color);
 }
 .resume-content {
+    border: solid orange;
   
    
     
 }
-p {
-    color:crimson;
-    padding-left:1%;
-    padding-top:1%;
-}
+
 .intro>p {
-    color:blue;
+    color:var(--primary-color);
     padding: 3%;
     text-align: left;
+    border: solid yellow;
+}
+.experiences{
+    padding: 30px;
+    margin: 20px;
+    border: solid green;
+}
+.educations {
+    padding: 30px;
+    margin: 20px;
+    border: solid blue;
 }
 h2 {
-    color:brown;
+    color:var(--primary-color);
     padding-left: 1%;
     padding-top:1%;
+    padding-right:1%;
+    padding-bottom: 2%;
 }
 h3 {
-    color:chartreuse;
+    color:var(--primary-color);
     padding-left: 1%;
+    padding-top:3%;
+}
+p {
+    color:var(--primary-color);
+    padding-left:1%;
     padding-top:1%;
 }
 .skills {
     display:flex;
     font-size: 1.77%vw;
-    justify-content: space-evenly;
-    align-items: center;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    border: solid violet;
+    padding: 30px;
+    margin: 20px;
+    
 }
 .skill-title {
     color: purple;
@@ -74,12 +92,70 @@ h3 {
 
 .skill-col-1 {
     padding:20px;
+    margin:20px;
     font-size: 18px;
 }
 .skill-col-2 {
     padding:20px;
     font-size: 18px;
+    margin:20px;
 }
 
 
+/*Media Query for better mobile responsiveness */
+@media screen and (max-width: 980px) {
 
+
+
+
+
+
+
+}/*980px breakpoint end */
+@media screen and (max-width: 768px) {
+    
+
+}/*768px breakpoint end */
+
+@media screen and (max-width: 575px) {
+     header h1 {
+        font-size: 5.0vw;
+    }
+    header nav ul li a {
+        font-size: 3.0vw;
+    }
+    .resume-intro>p {
+        text-align: center;
+        padding:10px;
+    }
+    body {
+        border:solid 8px red;
+    }
+    header {
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    /* .intro>p {
+        padding:15px;
+    } */
+    .skills {
+        flex-direction: column;
+
+
+    }
+
+    .skill-col-1 {
+        padding:0px; 
+        margin:0px; 
+        font-size: 18px;
+    }
+    .skill-col-2 {
+        padding:0px;
+        font-size: 18px;
+        margin:0px;
+    }
+
+    p {
+        padding:10px;
+    }
+}/*575px breakpoint end */
