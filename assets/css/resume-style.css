@@ -4,6 +4,10 @@
     --secondary-color: white;
     --tertiary-color: black;
     --hero-height:600px;
+    --msu-green-color: rgb(24,69,59);
+    --silver-color: rgb(109,110,113);
+    --black-color: rgb(0,0,0);
+    --green-color: rgb(99,151,64);
     
 }
 
@@ -11,6 +15,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+    
 
 }
 
@@ -18,7 +24,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    border: solid red;
+    /* border: solid red; */
     color:var(--primary-color);
     justify-content: center;
     padding-bottom: 3%;
@@ -26,13 +32,17 @@
     
 
 }
+.resume-intro a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
 
 
 .resume-intro>p {
     color: var(--primary-color);
 }
 .resume-content {
-    border: solid orange;
+    /* border: solid orange; */
   
    
     
@@ -42,29 +52,29 @@
     color:var(--primary-color);
     padding: 3%;
     text-align: left;
-    border: solid yellow;
+    /* border: solid yellow; */
 }
 .experiences{
     padding: 30px;
     margin: 20px;
-    border: solid green;
+    /* border: solid green; */
 }
 .educations {
     padding: 30px;
     margin: 20px;
-    border: solid blue;
+    /* border: solid blue; */
 }
 h2 {
     color:var(--primary-color);
     padding-left: 1%;
     padding-top:1%;
     padding-right:1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 h3 {
     color:var(--primary-color);
     padding-left: 1%;
-    padding-top:3%;
+    padding-top:2%;
 }
 p {
     color:var(--primary-color);
@@ -76,13 +86,13 @@ p {
     font-size: 1.77%vw;
     /* justify-content: space-evenly; */
     /* align-items: center; */
-    border: solid violet;
+    /* border: solid violet; */
     padding: 30px;
     margin: 20px;
     
 }
 .skill-title {
-    color: purple;
+    /* color: purple; */
    
     
     
@@ -94,6 +104,7 @@ p {
     padding:20px;
     margin:20px;
     font-size: 18px;
+    
 }
 .skill-col-2 {
     padding:20px;
