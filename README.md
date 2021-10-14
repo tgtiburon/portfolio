@@ -2,7 +2,7 @@
 
 
 
-I was given the task of taking an index.html and a style.css which created a functional website for a company called Horiseon.  The website was pleasing to look at but was lacking in how the html and css was structured for both readability and for accessibity.  I replaced many of the non-semantic elements with semantic ones and added other elements to make the website more accessible for users who would be using a reader to access the site.  In addition to this I reorganized the html and css to be in a more logical order as well as be more efficient by consolodating classes that were reusing code.
+I was given the task of creating a Portfolio for myself. I made sure to structure the html and css for both readability and for accessibity.  I used semantic elements and added other elements to make the website more accessible for users who would be using a reader to access the site.  In addition to this I organized the html and css to be in a logical order as well as be efficient by consolodating classes that were reusing code.
 
 #Skills I demonstrate in this project
 
@@ -17,5 +17,5 @@ I was given the task of taking an index.html and a style.css which created a fun
   
  #Why did I do this project?
   
-  As a new developer I worked on this project as a way to solidify my understanding in how html and css can be used to not only create a website, but to created a website that is pleasant to look at, but also be useful to those who need accomidation.
+   I worked on this project as a way to solidify my understanding in how html and css can be used to not only create a website, but to create a website that is pleasant to look at, but also be useful to those who need accomidation.  In addition it will serve as my portfolio while looking for work as a web developer.
 
