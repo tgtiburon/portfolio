@@ -108,6 +108,31 @@ header nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
 }
+.big-work {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.big-work h4 {
+    display: flex;
+    justify-content: center;
+    color:var(--color6);
+    font-size: 2.0vw;
+
+}
+.big-work a {
+    display:flex;
+    justify-content: center;
+
+}
+.big-work a img {
+    width:50%;   
+}
+.big-work img:hover {
+    transform:rotate(2deg) ;
+    
+}
 .work {
     
     width: 33%;
