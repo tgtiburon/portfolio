@@ -1,51 +1,32 @@
 /*Global Variables */
 :root {
-   
-
-    
+     
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-    
-
 }
 
 .resume-intro {
     display:flex;
-    flex-direction: column;
-    /* align-items: center; */
-   
+    flex-direction: column; 
     color: var(--color6);
     justify-content: center;
     padding-bottom: 3%;
     background-color: var(--color4);
-
-    
-
 }
 .resume-intro a {
     text-decoration: none;
-    color:var(--color6);
-    
-   
+    color:var(--color6);  
 }
 
-.contacts div a {
-    
-    padding-top:10PX;
-    
-}
 .address {
     display:flex;
     flex-direction: column;
     align-items: center; 
-    font-size: 3.0vw; 
-    
-    
+      
 }
 .address h1 {
     color:var(--color6);
@@ -58,47 +39,34 @@
 
 } 
 
-
-
-
 .contacts {
-    display:flex;
-    
+    display:flex;  
     align-items:center;
-    justify-content: space-around;
-    
-   
+    justify-content: space-around; 
 }
-
-.contacts>a  {
-    color: var(--color6);
-    padding:10px;
-    
-}
-
 
 .intro>p {
     color:var(--color6);
     padding: 3%;
     text-align: left;
-    /* border: solid yellow; */
+   
 }
 .experiences{
-    padding: 30px;
-    margin: 20px;
-    /* border: solid green; */
+    padding: 1.0vw;
+    margin: 1.0vw;
+    
 }
 .educations {
-    padding: 30px;
-    margin: 20px;
-    /* border: solid blue; */
+    
+    padding: 1.0vw;
+    margin: 1.0vw;
+   
 }
 h2 {
     color:var(--color6);
     padding-left: 1%;
     padding-top:1%;
-    padding-right:1%;
-    padding-bottom: 1%;
+    
 }
 h3 {
     color:var(--color6);
@@ -113,9 +81,6 @@ p {
 .skills {
     display:flex;
     font-size: 1.77%vw;
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
-    /* border: solid violet; */
     padding: 30px;
     margin: 20px;
     background-color: var(--color2);
@@ -139,14 +104,12 @@ p {
 /*Media Query for better mobile responsiveness */
 @media screen and (max-width: 980px) {
 
-
-
-
-
-
+/* NO CHANGES NEEDED FOR THIS RESOLUTION */
 
 }/*980px breakpoint end */
 @media screen and (max-width: 768px) {
+
+    /* NO CHANGES NEEDED FOR THIS RESOLUTION */
     
 
 }/*768px breakpoint end */
@@ -174,12 +137,9 @@ p {
         flex-wrap:wrap;
         justify-content: center;
     }
-    /* .intro>p {
-        padding:15px;
-    } */
+    
     .skills {
         flex-direction: column;
-
 
     }
 

@@ -21,8 +21,7 @@
 body {
     color:var(--color1);
     font-family: Helvetica, Arial, Helvetica, sans-serif;
-    background-color:var(--color3);
-    
+    background-color:var(--color3);    
 }
 
 header {
@@ -35,23 +34,13 @@ header {
     position:sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 9999;
-    
-    
+    z-index: 9999;    
 }
 header a {
     text-decoration: none;
     color:white;
 }
-header h1 {
-    /* font-size: 3.0vw;
-    text-shadow: 0 0 10px rgba(0,0,0,.9);
-    text-shadow: 0 0 10px rgba(--color1,.9); */
-    
-    
-    
-    
-}
+
 header div {
     width: 60%;
 }
@@ -70,11 +59,8 @@ header nav ul {
 }
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: normal;
     font-size: 1.77vw;
     text-shadow: 0 0 20px rgba(0,0,0,.9);
-    /* text-shadow: 0 0 10px rgb(122, 217, 248); */
-    /* text-shadow: 0 0 20px white; */
 
 }
 header nav ul li a:hover {
@@ -85,24 +71,17 @@ header nav ul li a:hover {
 .hero {
     display:flex;
     align-items: flex-start;
-    /* height:100%; */
-
 }
-/*set profile pic to 100% of the block */
 .hero > img {
     width: 30%;
 }
 .hero p {
     font-size: 2.0vw;
     padding: 20px;
-    color:white;
-    background-color: var(--tertiary-color);
-    /* height:100% */
-
+    color: var(--color6);   
 }
 .about-me-title {
-    font-size: 3.0vw;
- 
+    font-size: 3.0vw; 
     color:var(--color6);
     padding: 3%;
 }
@@ -113,19 +92,14 @@ header nav ul li a:hover {
     justify-content: center;
     height:var(--hero-height);
     background-color: var(--color3);
-    
-    
-
 }
 .my-work-title {
     display:flex;
     font-size: 3.0vw;
     color:var(--color6);
-    /* align-items:center; */
     justify-content: center;
     padding-bottom: 3%;
-    padding-top: 1%;
-    
+    padding-top: 1%;    
 }
 
 .works {
@@ -144,7 +118,7 @@ header nav ul li a:hover {
 
 .work>a>img {
     
-    width: 100%;
+    width: 98%;
 }
 .work>a>img:hover {
     transform:rotate(2deg) ;
@@ -153,8 +127,7 @@ header nav ul li a:hover {
 .work h4 {
     z-index: 10;
     font-size:2.0vw;
-    color: var(--color6);
-    
+    color: var(--color6);    
 }
 
 .contact  {
@@ -162,8 +135,7 @@ header nav ul li a:hover {
     padding:10px;
     display: flex;
     align-items: center;
-    font-size: 2.0vw;
-    
+    font-size: 2.0vw;    
 }
 
 .contact div {
@@ -171,9 +143,6 @@ header nav ul li a:hover {
     padding: 1.5%;
     align-items: center;
     width:80%;
-    
-
-
 }
 .contact div a {
     text-decoration: none;
@@ -188,7 +157,6 @@ header nav ul li a:hover {
     padding:10px;
     color: var(--color6);
     font-size: 2.0vw;
-
 }
 .contact div h5 {
     text-decoration: none;
@@ -198,24 +166,19 @@ header nav ul li a:hover {
 }
 footer {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
     padding: 1%;
-    background-color: var(--color2);
-    
+    background-color: var(--color2);    
 }
 footer h2 {
-    color: var(--color6);
-    
+    color: var(--color6);   
 }
 
 
 /*Media Query for better mobile responsiveness */
 @media screen and (max-width: 980px) {
 
-
-
-
+/* NO CHANGES NEEDED FOR THIS RESOLUTION */
 
 
 
@@ -225,30 +188,23 @@ footer h2 {
         width: 40%;
     }
     header div img {
-        width: 70%;
-          
+        width: 70%;         
     }
     .my-work {
-
         display:flex;
         justify-content: space-around;
-
     }
     .works {
         justify-content: space-around;
     }
     .work  {
-        width: 45%;
-        
+        width: 45%;     
     }
     .contact div {
         display:flex;
         padding: 0.5%;
         align-items: center;
-        width:100%;
-        
-    
-    
+        width:100%;    
     }
 
     .contact div h4{
@@ -264,9 +220,7 @@ footer h2 {
         color: var(--color5);
         font-size: 1.37vw;
     }
-
-
-   
+  
 
 }/*768px breakpoint end */
 
@@ -280,20 +234,13 @@ footer h2 {
     header div {
         width: 70%;
         display:flex;
-        justify-content: center;
-        
-        
-        
+        justify-content: center;      
     }
     header div img {
-        width: 70%;
-        
-        
-        
+        width: 70%;      
     }
     header nav {
-        margin: 10px;
-        
+        margin: 10px;   
     }
     header nav ul {
         display: flex;
@@ -303,13 +250,11 @@ footer h2 {
         list-style: none;
         align-items: center;
     }
-
-    
+   
     .hero {
         display:flex;
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;       
     }
     .hero img{
         width: 50%;
@@ -323,14 +268,12 @@ footer h2 {
 
         display:flex;
         justify-content: space-around;
-
     }
     .works {
         justify-content: space-around;
     }
     .work  {
-        width: 90%;
-        
+        width: 90%;       
     }
     .contact {
         flex-direction: column;
@@ -340,10 +283,7 @@ footer h2 {
         display:flex;
         padding: 1.5%;
         align-items: center;
-        width:80%;
-        
-
-
+        width:80%;       
     }
     .contact div a {
         text-decoration: none;
