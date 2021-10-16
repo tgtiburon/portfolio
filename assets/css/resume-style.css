@@ -36,12 +36,27 @@
 .resume-intro>p {
     color: var(--primary-color);
 }
+.contacts {
+    display:flex;
+    align-items:center;
+}
+.contacts>p {
+    color:red;
+    padding:10px;
+}
+.contacts>a  {
+    color:red;
+    padding:10px;
+    
+}
+
 .resume-content {
     /* border: solid orange; */
   
    
     
 }
+
 
 .intro>p {
     color:var(--color5);
