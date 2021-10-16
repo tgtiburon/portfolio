@@ -22,3 +22,7 @@ I was given the task of creating a Portfolio for myself. I made sure to structur
   
    I worked on this project as a way to solidify my understanding in how html and css can be used to not only create a website, but to create a website that is pleasant to look at, but also be useful to those who need accomidations.  In addition it will serve as my portfolio of my work while looking for a position as a full stack web developer.
 
+## Contributions
+
+  Art for this project was created by Ellie Gendreau an outstanding graphic designer, who happens to be my daughter.
+
