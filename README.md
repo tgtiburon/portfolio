@@ -1,7 +1,6 @@
 # portfolio
 ---
 
-  ![License](https://img.shields.io/github/license/tgtiburon/portfolio?style=flat-square)
   
   ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) 
   ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) 
@@ -56,16 +55,7 @@ I was given the task of creating a Portfolio for myself. I made sure to structur
 
       1. Ellie Gendreau for the artwork. 
 
-  ---
-  ## License 
-
-  &emsp; ![License](https://img.shields.io/github/license/tgtiburon/portfolio?style=flat-square)
-
-      To read about the license of this project click the link below.
-
-  &emsp;[License](https://github.com/tgtiburon/portfolio/blob/main/LICENSE) 
-
-
+ 
 
 ---
 ## Questions
