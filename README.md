@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 ---
 
   
@@ -8,15 +8,19 @@
 
 I was given the task of creating a Portfolio for myself. I made sure to structure the html and css for both readability and for accessibity. I used semantic elements and added other elements to make the website more accessible for users who would be using a reader to access the site. In addition to this I organized the html and css to be in a logical order as well as be efficient by consolodating classes that were reusing code.
 
-
 ---
   ## Table of Contents
+
+  [Features](#features)
+
+  [Screenshot](#screenshot)
     
   [Credits](#credits)
-
+    
   [Questions](#questions)
   
   
+
 ---
 
 ## Features
@@ -38,22 +42,18 @@ I was given the task of creating a Portfolio for myself. I made sure to structur
       8. I created links to outside sites such as Linkedin that open in a new tab. 
 
       9. I turned my resume into an interactive web page. 
-
-
 ---
-## Screenshot of portfolio in action
+
+## Screenshot 
   ![](portfolio.PNG)
   
   
 
 
-
-
-
 ---
   ## Credits
 
-      1. Ellie Gendreau for the artwork. 
+      1. Ellie Gendreau for the artwork! 
 
  
 
