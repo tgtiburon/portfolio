@@ -60,7 +60,7 @@ I was given the task of creating a Portfolio for myself. I made sure to structur
 ---
 ## Questions
 
-If you have any questions about this project feel free to <tg.tiburon@gmail.com> me .  
+If you have any questions about this project feel free to email me at <tg.tiburon@gmail.com>.  
 
 To see the rest of my portfolio, visit [Github](https://github.com/tgtiburon).
 ![](./images/GitHub-Mark-32px.png)
