@@ -33,8 +33,6 @@ I was given the task of creating a Portfolio for myself. I made sure to structur
   ## Table of Contents
     
   [Credits](#credits)
-    
-  [License](#license)
 
   [Questions](#questions)
   
