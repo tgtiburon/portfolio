@@ -1,28 +1,83 @@
-## Tony Gendreau's Portfolio
+# portfolio
+---
 
+  ![License](https://img.shields.io/github/license/tgtiburon/portfolio?style=flat-square)
+  
+  ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) 
+  ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) 
+## Description
 
+I was given the task of creating a Portfolio for myself. I made sure to structure the html and css for both readability and for accessibity. I used semantic elements and added other elements to make the website more accessible for users who would be using a reader to access the site. In addition to this I organized the html and css to be in a logical order as well as be efficient by consolodating classes that were reusing code.
 
-I was given the task of creating a Portfolio for myself. I made sure to structure the html and css for both readability and for accessibity.  I used semantic elements and added other elements to make the website more accessible for users who would be using a reader to access the site.  In addition to this I organized the html and css to be in a logical order as well as be efficient by consolodating classes that were reusing code.
+---
 
-## Skills I demonstrate in this project
+## Features
 
-  1. Proper implementation of the \<nav> element to create a navigation menu.
-  2. Proper implementation of the \<hero> element.
-  3. Implementation of \<main> to create an efficient webpage.
-  4. Implementation of accessiblity features for users who need it.
-  5. Proper implementation of \<footer> and \<header> elements.
-  6. Use of /*#region/ to make code easier to read.
-  7. Use of comments to make code be easily maintained in the future.
-  8. I used hover to make the images feel more interactive.
-  9. I created links to outside sites such as Linkedin that open in a new tab.
-  10. I turned my resume into an interactive web page.
+      1. Proper implementation of the <nav> element to create a navigation menu. 
+
+      2. Proper implementation of the <hero> element. 
+
+      3. Implementation of <main> to create an efficient webpage. 
+
+      4. Implementation of accessiblity features for users who need it. 
+
+      5. Proper implementation of <footer> and <header> elements. 
+
+      6. Use of comments to make code be easily maintained in the future. 
+
+      7. I used hover to make the images feel more interactive. 
+
+      8. I created links to outside sites such as Linkedin that open in a new tab. 
+
+      9. I turned my resume into an interactive web page. 
+---
+  ## Table of Contents
+    
+  [Credits](#credits)
+    
+  [License](#license)
+
+  [Questions](#questions)
   
   
- ## Why did I do this project?
+
+---
+## Screenshot of portfolio in action
+  ![](portfolio.png)
   
-   I worked on this project as a way to solidify my understanding in how html and css can be used to not only create a website, but to create a website that is pleasant to look at, but also be useful to those who need accomidations.  In addition it will serve as my portfolio of my work while looking for a position as a full stack web developer.
+  
 
-## Contributions
 
-  Art for this project was created by Ellie Gendreau an outstanding graphic designer, who happens to be my daughter.
 
+
+
+---
+  ## Credits
+
+      1. Ellie Gendreau for the artwork. 
+
+  ---
+  ## License 
+
+  &emsp; ![License](https://img.shields.io/github/license/tgtiburon/portfolio?style=flat-square)
+
+      To read about the license of this project click the link below.
+
+  &emsp;[License](https://github.com/tgtiburon/portfolio/blob/main/LICENSE) 
+
+
+
+---
+## Questions
+
+If you have any questions about this project feel free to [email](tg.tiburon@gmail.com) me .  
+
+To see the rest of my portfolio, visit [Github](https://github.com/tgtiburon).
+![](./images/GitHub-Mark-32px.png)
+
+Below is a graphic displaying my most used languages on github.
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tgtiburon)
+
+
+This Readme file was created with Readme Architect by Tony Gendreau &copy;
