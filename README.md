@@ -42,7 +42,7 @@ I was given the task of creating a Portfolio for myself. I made sure to structur
 
 ---
 ## Screenshot of portfolio in action
-  ![](portfolio.png)
+  ![](portfolio.PNG)
   
   
 
