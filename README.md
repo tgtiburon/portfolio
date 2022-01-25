@@ -42,6 +42,7 @@ I was given the task of creating a Portfolio for myself. I made sure to structur
       8. I created links to outside sites such as Linkedin that open in a new tab. 
 
       9. I turned my resume into an interactive web page. 
+      
 ---
 
 ## Screenshot 
